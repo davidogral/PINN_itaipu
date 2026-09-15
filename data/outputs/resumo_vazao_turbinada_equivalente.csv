@@ -1,0 +1,4 @@
+periodo,n,k_mw_por_m3s,q_capacidade_equivalente_m3s,vazao_proxy_media_m3s,vazao_turbinada_eq_media_m3s,diferenca_media_qeq_menos_proxy_m3s,razao_media_qeq_proxy,produtividade_proxy_media_mw_por_m3s,pearson_proxy_qeq
+treino_2015_2022,2919,1.041822,13386.47,6414.72,9212.31,2797.59,1.5051,1.568001,0.6151
+teste_2023_2024,731,1.041822,13386.47,6361.16,8206.63,1845.47,1.3649,1.421951,0.5419
+total_2015_2024,3650,1.041822,13386.47,6403.99,9010.90,2606.91,1.4770,1.538751,0.5872

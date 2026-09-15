@@ -1,0 +1,64 @@
+grupo_features,ordem,feature,disponibilidade
+hidro_lag1_basico,1,mes_sin,calendario conhecido antes do dia previsto
+hidro_lag1_basico,2,mes_cos,calendario conhecido antes do dia previsto
+hidro_lag1_basico,3,q_lag1,observacao em t-1 ou anterior
+hidro_lag1_basico,4,ena_lag1,observacao em t-1 ou anterior
+hidro_lags_medias_30d,1,mes_sin,calendario conhecido antes do dia previsto
+hidro_lags_medias_30d,2,mes_cos,calendario conhecido antes do dia previsto
+hidro_lags_medias_30d,3,q_lag1,observacao em t-1 ou anterior
+hidro_lags_medias_30d,4,q_lag2,observacao em t-1 ou anterior
+hidro_lags_medias_30d,5,q_lag3,observacao em t-1 ou anterior
+hidro_lags_medias_30d,6,q_lag7,observacao em t-1 ou anterior
+hidro_lags_medias_30d,7,q_lag14,observacao em t-1 ou anterior
+hidro_lags_medias_30d,8,q_lag30,observacao em t-1 ou anterior
+hidro_lags_medias_30d,9,q_ma3,observacao em t-1 ou anterior
+hidro_lags_medias_30d,10,q_ma7,observacao em t-1 ou anterior
+hidro_lags_medias_30d,11,q_ma14,observacao em t-1 ou anterior
+hidro_lags_medias_30d,12,q_ma30,observacao em t-1 ou anterior
+hidro_lags_medias_30d,13,dq_lag1,observacao em t-1 ou anterior
+hidro_lags_medias_30d,14,dq_lag7,observacao em t-1 ou anterior
+hidro_lags_medias_30d,15,ena_lag1,observacao em t-1 ou anterior
+hidro_lags_medias_30d,16,ena_lag2,observacao em t-1 ou anterior
+hidro_lags_medias_30d,17,ena_lag3,observacao em t-1 ou anterior
+hidro_lags_medias_30d,18,ena_lag7,observacao em t-1 ou anterior
+hidro_lags_medias_30d,19,ena_lag14,observacao em t-1 ou anterior
+hidro_lags_medias_30d,20,ena_lag30,observacao em t-1 ou anterior
+hidro_lags_medias_30d,21,ena_ma3,observacao em t-1 ou anterior
+hidro_lags_medias_30d,22,ena_ma7,observacao em t-1 ou anterior
+hidro_lags_medias_30d,23,ena_ma14,observacao em t-1 ou anterior
+hidro_lags_medias_30d,24,ena_ma30,observacao em t-1 ou anterior
+hidro_lags_medias_30d,25,dena_lag1,observacao em t-1 ou anterior
+hidro_lags_medias_30d,26,dena_lag7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,1,mes_sin,calendario conhecido antes do dia previsto
+operacional_lags_com_geracao,2,mes_cos,calendario conhecido antes do dia previsto
+operacional_lags_com_geracao,3,q_lag1,observacao em t-1 ou anterior
+operacional_lags_com_geracao,4,q_lag2,observacao em t-1 ou anterior
+operacional_lags_com_geracao,5,q_lag3,observacao em t-1 ou anterior
+operacional_lags_com_geracao,6,q_lag7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,7,q_lag14,observacao em t-1 ou anterior
+operacional_lags_com_geracao,8,q_lag30,observacao em t-1 ou anterior
+operacional_lags_com_geracao,9,q_ma3,observacao em t-1 ou anterior
+operacional_lags_com_geracao,10,q_ma7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,11,q_ma14,observacao em t-1 ou anterior
+operacional_lags_com_geracao,12,q_ma30,observacao em t-1 ou anterior
+operacional_lags_com_geracao,13,dq_lag1,observacao em t-1 ou anterior
+operacional_lags_com_geracao,14,dq_lag7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,15,ena_lag1,observacao em t-1 ou anterior
+operacional_lags_com_geracao,16,ena_lag2,observacao em t-1 ou anterior
+operacional_lags_com_geracao,17,ena_lag3,observacao em t-1 ou anterior
+operacional_lags_com_geracao,18,ena_lag7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,19,ena_lag14,observacao em t-1 ou anterior
+operacional_lags_com_geracao,20,ena_lag30,observacao em t-1 ou anterior
+operacional_lags_com_geracao,21,ena_ma3,observacao em t-1 ou anterior
+operacional_lags_com_geracao,22,ena_ma7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,23,ena_ma14,observacao em t-1 ou anterior
+operacional_lags_com_geracao,24,ena_ma30,observacao em t-1 ou anterior
+operacional_lags_com_geracao,25,dena_lag1,observacao em t-1 ou anterior
+operacional_lags_com_geracao,26,dena_lag7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,27,p_lag1,observacao em t-1 ou anterior
+operacional_lags_com_geracao,28,p_lag2,observacao em t-1 ou anterior
+operacional_lags_com_geracao,29,p_lag7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,30,p_ma3,observacao em t-1 ou anterior
+operacional_lags_com_geracao,31,p_ma7,observacao em t-1 ou anterior
+operacional_lags_com_geracao,32,dp_lag1,observacao em t-1 ou anterior
+operacional_lags_com_geracao,33,dp_lag7,observacao em t-1 ou anterior

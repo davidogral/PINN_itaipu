@@ -1,0 +1,3 @@
+implementacao,modelo,features,n_treino,n_teste,epocas_medidas,tempo_treino_medido_s,tempo_por_epoca_ms,tempo_2000_epocas_estimado_s,tempo_inferencia_teste_ms,observacao
+python_puro_loops,MLP multivariado,vazao_norm+ena_bruta_norm+mes_sin+mes_cos+vazao_lag1_norm,2919,731,10,2.8119506659999995,281.19506659999996,562.3901331999999,18.37641699999981,medido por 10 épocas; 2000 épocas estimadas; Adam lr=0.01; loss_final=0.038910
+python_numpy_vetorizado,MLP multivariado,vazao_norm+ena_bruta_norm+mes_sin+mes_cos+vazao_lag1_norm,2919,731,2000,1.711885541,0.8559427705,1.711885541,0.15695800000070648,NumPy vetorizado; Adam lr=0.001; loss_final=0.017971

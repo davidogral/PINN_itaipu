@@ -1,0 +1,10 @@
+modelo,n_treino,n_teste,tempo_treino_s,tempo_inferencia_teste_ms
+mlp_1d,2919,731,3.910947,0.265084
+pinn_fisica_1d,2919,731,17.655410,0.252250
+mlp_hidrologico,2919,731,4.376877,0.283459
+pinn_hidrologica,2919,731,19.001563,0.278250
+rf_hidrologica,2919,731,0.080607,1.156083
+mlp_multivariado,2919,731,4.368944,0.273042
+persistencia_residual_mlp,2919,731,4.317744,0.266250
+pinn_multivariada,2919,731,18.865526,0.282083
+rf_multivariada,2919,731,0.080702,1.213375

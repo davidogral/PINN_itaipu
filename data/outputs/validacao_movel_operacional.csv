@@ -1,0 +1,36 @@
+ano_teste,modelo,formulacao,n_treino,n_teste,rmse_mwmed,mae_mwmed,r2,bias_mwmed,melhoria_rmse_vs_persistencia_pct,tempo_treino_s,observacao
+2020,persistencia_dia_anterior,baseline,1793,366,531.57,415.69,0.8421,10.34,0.00,0.000000,P_t = P_{t-1}
+2020,persistencia_delta_mensal,residuo_sobre_persistencia,1793,366,532.46,416.54,0.8415,11.64,-0.17,0.000000,P_t = P_{t-1} + media_treino(P_t-P_{t-1}|mes)
+2020,ridge_residuo_sobre_persistencia,residuo_sobre_persistencia,1793,366,485.61,389.22,0.8682,81.19,8.65,0.000000,ridge operacional com geracao passada e hidrologia defasada
+2020,rf_residuo_sobre_persistencia,residuo_sobre_persistencia,1793,366,473.28,380.93,0.8748,94.24,10.97,0.102534,Random Forest residual operacional
+2020,mlp_residuo_sobre_persistencia,residuo_sobre_persistencia,1793,366,478.42,380.46,0.8721,88.88,10.00,3.870438,MLP residual operacional; epocas=1200; sem variaveis futuras
+2020,ridge_absoluto,absoluto,1793,366,485.65,389.24,0.8682,81.23,8.64,0.000000,ridge operacional prevendo P_t diretamente
+2020,mlp_absoluto,absoluto,1793,366,513.37,410.87,0.8527,-8.64,3.42,3.871993,MLP operacional prevendo P_t; epocas=1200; sem variaveis futuras
+2021,persistencia_dia_anterior,baseline,2159,365,579.74,444.69,0.8981,3.01,0.00,0.000000,P_t = P_{t-1}
+2021,persistencia_delta_mensal,residuo_sobre_persistencia,2159,365,577.94,444.01,0.8987,2.34,0.31,0.000000,P_t = P_{t-1} + media_treino(P_t-P_{t-1}|mes)
+2021,ridge_residuo_sobre_persistencia,residuo_sobre_persistencia,2159,365,595.18,462.33,0.8925,61.47,-2.66,0.000000,ridge operacional com geracao passada e hidrologia defasada
+2021,rf_residuo_sobre_persistencia,residuo_sobre_persistencia,2159,365,560.50,438.88,0.9047,103.45,3.32,0.127757,Random Forest residual operacional
+2021,mlp_residuo_sobre_persistencia,residuo_sobre_persistencia,2159,365,568.88,447.06,0.9018,57.29,1.87,4.684291,MLP residual operacional; epocas=1200; sem variaveis futuras
+2021,ridge_absoluto,absoluto,2159,365,595.25,462.41,0.8925,61.50,-2.68,0.000000,ridge operacional prevendo P_t diretamente
+2021,mlp_absoluto,absoluto,2159,365,639.98,508.67,0.8758,-146.24,-10.39,4.619573,MLP operacional prevendo P_t; epocas=1200; sem variaveis futuras
+2022,persistencia_dia_anterior,baseline,2524,365,702.92,577.89,0.8419,-4.71,0.00,0.000000,P_t = P_{t-1}
+2022,persistencia_delta_mensal,residuo_sobre_persistencia,2524,365,702.50,579.40,0.8421,-5.44,0.06,0.000000,P_t = P_{t-1} + media_treino(P_t-P_{t-1}|mes)
+2022,ridge_residuo_sobre_persistencia,residuo_sobre_persistencia,2524,365,569.84,458.45,0.8961,15.87,18.93,0.000000,ridge operacional com geracao passada e hidrologia defasada
+2022,rf_residuo_sobre_persistencia,residuo_sobre_persistencia,2524,365,613.69,500.28,0.8795,5.16,12.69,0.152075,Random Forest residual operacional
+2022,mlp_residuo_sobre_persistencia,residuo_sobre_persistencia,2524,365,584.84,472.92,0.8906,20.10,16.80,5.422249,MLP residual operacional; epocas=1200; sem variaveis futuras
+2022,ridge_absoluto,absoluto,2524,365,569.88,458.53,0.8961,15.89,18.93,0.000000,ridge operacional prevendo P_t diretamente
+2022,mlp_absoluto,absoluto,2524,365,582.97,466.09,0.8913,-33.23,17.06,5.398311,MLP operacional prevendo P_t; epocas=1200; sem variaveis futuras
+2023,persistencia_dia_anterior,baseline,2889,365,680.76,546.53,0.7044,-6.13,0.00,0.000000,P_t = P_{t-1}
+2023,persistencia_delta_mensal,residuo_sobre_persistencia,2889,365,680.11,544.61,0.7050,-6.27,0.10,0.000000,P_t = P_{t-1} + media_treino(P_t-P_{t-1}|mes)
+2023,ridge_residuo_sobre_persistencia,residuo_sobre_persistencia,2889,365,573.34,456.37,0.7903,8.79,15.78,0.000000,ridge operacional com geracao passada e hidrologia defasada
+2023,rf_residuo_sobre_persistencia,residuo_sobre_persistencia,2889,365,571.79,455.19,0.7915,16.59,16.01,0.179104,Random Forest residual operacional
+2023,mlp_residuo_sobre_persistencia,residuo_sobre_persistencia,2889,365,557.90,441.81,0.8015,-1.07,18.05,6.296251,MLP residual operacional; epocas=1200; sem variaveis futuras
+2023,ridge_absoluto,absoluto,2889,365,573.36,456.41,0.7903,8.80,15.78,0.000000,ridge operacional prevendo P_t diretamente
+2023,mlp_absoluto,absoluto,2889,365,568.42,455.60,0.7939,15.99,16.50,6.396552,MLP operacional prevendo P_t; epocas=1200; sem variaveis futuras
+2024,persistencia_dia_anterior,baseline,3254,366,483.86,382.82,0.8996,4.22,0.00,0.000000,P_t = P_{t-1}
+2024,persistencia_delta_mensal,residuo_sobre_persistencia,3254,366,484.63,383.58,0.8993,4.72,-0.16,0.000000,P_t = P_{t-1} + media_treino(P_t-P_{t-1}|mes)
+2024,ridge_residuo_sobre_persistencia,residuo_sobre_persistencia,3254,366,452.50,342.30,0.9122,37.26,6.48,0.000000,ridge operacional com geracao passada e hidrologia defasada
+2024,rf_residuo_sobre_persistencia,residuo_sobre_persistencia,3254,366,447.51,340.17,0.9142,68.48,7.51,0.202416,Random Forest residual operacional
+2024,mlp_residuo_sobre_persistencia,residuo_sobre_persistencia,3254,366,455.42,341.00,0.9111,56.05,5.88,7.202263,MLP residual operacional; epocas=1200; sem variaveis futuras
+2024,ridge_absoluto,absoluto,3254,366,452.52,342.33,0.9122,37.27,6.48,0.000000,ridge operacional prevendo P_t diretamente
+2024,mlp_absoluto,absoluto,3254,366,543.22,408.27,0.8735,255.49,-12.27,7.059479,MLP operacional prevendo P_t; epocas=1200; sem variaveis futuras

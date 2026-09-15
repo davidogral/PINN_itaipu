@@ -1,0 +1,32 @@
+{
+  "vazao": {
+    "min": 2181.1650390625,
+    "max": 20433.46484375,
+    "unidade": "m3/s"
+  },
+  "ena_bruta": {
+    "min": 4641.89990234,
+    "max": 46891.0,
+    "unidade": "MWmed"
+  },
+  "vazao_lag1": {
+    "min": 2181.1650390625,
+    "max": 20433.46484375,
+    "unidade": "m3/s"
+  },
+  "geracao_lag1": {
+    "min": 4657.304875,
+    "max": 13946.316250000002,
+    "unidade": "MWmed"
+  },
+  "geracao": {
+    "min": 4657.304875,
+    "max": 13946.316250000002,
+    "unidade": "MWmed"
+  },
+  "metodo": "min-max [0,1]",
+  "ajuste_normalizacao": "somente treino 2015-2022",
+  "n_amostras": 3650,
+  "n_treino_2015_2022": 2919,
+  "n_teste_2023_2024": 731
+}
