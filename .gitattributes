@@ -1,0 +1,6 @@
+# Normaliza finais de linha dos arquivos de texto (LF no repositório).
+* text=auto
+
+# Dados: bytes preservados exatamente como gerados/baixados, em qualquer
+# sistema operacional (as somas SHA-256 em data/raw/SHA256SUMS dependem disso).
+*.csv -text

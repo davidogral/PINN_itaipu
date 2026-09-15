@@ -1,0 +1,37 @@
+# ─── Rust ───────────────────────────────────────────────
+/rust/target/
+**/*.rs.bk
+# Cargo.lock é versionado: fixa as versões das dependências do binário.
+
+# ─── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ─── Dados ──────────────────────────────────────────────
+# Todos os dados (brutos, processados e saídas) são versionados: são públicos
+# (ONS, CC-BY) e necessários para reproduzir os resultados a partir do git.
+
+# ─── Material editorial (fora do repositório de código) ─
+# O artigo, a apresentação e os documentos de submissão ficam só localmente.
+artigo/
+apresentacao/
+notebooks/
+*.pdf
+*.zip
+
+# ─── Ferramentas locais ─────────────────────────────────
+.ai-memory.toml
+.claude/
+.vscode/
+.idea/
+*.swp
+.Rhistory
+
+# ─── Sistema operacional ────────────────────────────────
+.DS_Store
+Thumbs.db
