@@ -1,0 +1,5 @@
+# Dependências dos scripts Python (ETL, gráficos, benchmark e bootstrap).
+# Versões usadas para gerar os resultados do artigo, com Python 3.9.6.
+numpy==2.0.2
+pandas==2.3.3
+matplotlib==3.9.4
