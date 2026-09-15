@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "Se usar este código ou estes dados, cite o artigo indicado em preferred-citation."
+title: "PGNN-Itaipu: rede neural guiada por física em Rust para a geração de Itaipu"
+type: software
+license: MIT
+repository-code: "https://github.com/davidogral/PGNN_itaipu"
+keywords:
+  - physics-guided neural networks
+  - physics-informed machine learning
+  - rust
+  - hydropower
+  - itaipu
+  - temporal validation
+  - reproducibility
+authors:
+  - given-names: Davi
+    family-names: Specia
+    affiliation: Faculdade Donaduzzi
+  - given-names: Luiz Henrique Zavatini
+    family-names: Feltrin
+    affiliation: Faculdade Donaduzzi
+  - given-names: Tainá
+    family-names: Dreissig
+    affiliation: Faculdade Donaduzzi
+  - given-names: Miguel Mantoan
+    family-names: Castellani
+    affiliation: Faculdade Donaduzzi
+  - given-names: Vinícius
+    family-names: Carraro
+    affiliation: Faculdade Donaduzzi
+  - given-names: Wagner Wilson Ávila
+    family-names: Bombardelli
+    affiliation: Faculdade Donaduzzi
+preferred-citation:
+  type: conference-paper
+  title: "Modelagem da Geração Hidrelétrica de Itaipu via Redes Neurais Guiadas por Física em Rust: Validação Temporal, Persistência e Previsão Operacional"
+  year: 2026
+  collection-title: "Latin.Science 2026"
+  conference:
+    name: "Latinoware 2026 — 23º Congresso Latino-americano de Software Livre e Tecnologias Abertas"
+  url: "https://github.com/davidogral/PGNN_itaipu"
+  authors:
+    - given-names: Davi
+      family-names: Specia
+      affiliation: Faculdade Donaduzzi
+    - given-names: Luiz Henrique Zavatini
+      family-names: Feltrin
+      affiliation: Faculdade Donaduzzi
+    - given-names: Tainá
+      family-names: Dreissig
+      affiliation: Faculdade Donaduzzi
+    - given-names: Miguel Mantoan
+      family-names: Castellani
+      affiliation: Faculdade Donaduzzi
+    - given-names: Vinícius
+      family-names: Carraro
+      affiliation: Faculdade Donaduzzi
+    - given-names: Wagner Wilson Ávila
+      family-names: Bombardelli
+      affiliation: Faculdade Donaduzzi
